@@ -5,22 +5,22 @@
 }
 
 .clearfix::after{
+    content: '';
     clear: both;
+    display: table;
 }
 .debug{
     height: 1500px;
-    border: 1px solid black;
 }
 
 .layout{
    width: 80%;
    margin: 0 auto;
 }
-
+/* header */
 header{
     width: 100%;
     height: 45%;
-    background-color: aqua;
 }
 
 .logo-nav{
@@ -34,15 +34,54 @@ header{
     height: calc(85% - 40px);
     background-color: rgb(219, 197, 3);
     margin: 20px 0;
-}
- 
+} 
+ /* main */
 main{
     width: 100%;
     height: 45%;
-    background-color: blueviolet;
+    background-color: rgb(26, 91, 182);
+    margin: 10px 0;
 }
+
+.main-title{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(94, 193, 193);
+}
+
+.box{
+    width: 20%;
+    height:calc(85% - 40px);
+    background-color:rgb(94, 193, 193); 
+    margin: 20px 0;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.main-text{
+    width: calc(100% - 40% - 40px);
+    height: calc(85% - 40px);
+    background-color: rgb(94, 193, 193);
+    float: left; 
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+/* footer */
 footer{
     width: 100%;
     height: 10%;
-    background-color: blue;
+    background-color: blueviolet;
 }
