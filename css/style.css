@@ -19,6 +19,7 @@
 }
 img{
     width: 100%;
+    height: 100%;
 }
 /* header */
 header{
@@ -72,21 +73,51 @@ li{
 main{
     width: 100%;
     height: 45%;
-    background-color: rgb(26, 91, 182);
-    margin: 10px 0;
 }
 
 .main-title{
     width: 100%;
-    height: 15%;
-    background-color: rgb(94, 193, 193);
+    margin-top: 20px;
 }
 
 .box{
     width: 20%;
     height:calc(85% - 40px);
-    background-color:rgb(94, 193, 193); 
     margin: 20px 0;
+    padding: 15px;
+}
+
+.img{
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+.side-center{
+     background-image: url(../img/banner-2.jpg);
+     background-size: cover;
+     background-position: 5%;
+     vertical-align: middle;
+}
+
+.box-text{
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.side-left{
+    background-image: url(../img/img-1.jpg); 
+    background-size: cover;   
+    vertical-align: middle;
+}
+
+.side-right{
+    background-image: url(../img/img-3.jpg); 
+    background-size: cover; 
+    background-position: center;
+    vertical-align: middle;
 }
 
 .left{
@@ -98,23 +129,20 @@ main{
 
 .main-text{
     width: calc(100% - 40% - 40px);
-    height: calc(85% - 40px);
-    background-color: rgb(94, 193, 193);
     float: left; 
+    padding: 15px;
+    height: calc(85% - 40px);
+
     margin: 20px;
 
 }
 
-
-
-
-
-
-
+#heart{
+    color: red;
+}
 
 /* footer */
 footer{
     width: 100%;
-    height: 10%;
-    background-color: blueviolet;
+   text-align: center;
 }
