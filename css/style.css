@@ -11,7 +11,6 @@
     display: table;
 }
 
-
 .layout{
    width: 80%;
    margin: 20px auto;
@@ -32,6 +31,7 @@ header{
     height: 20%;
 
 }
+
 .logo{
     width:15%;
     height: 60%;
@@ -44,6 +44,7 @@ li{
     list-style-type: none;
     margin-right: 20px;
     margin-top: 40px;
+    text-transform: uppercase;
 }
 
 .header-box{
@@ -81,10 +82,14 @@ main{
     width: 100%;
     margin-top: 20px;
 }
-.main-title h1{
-    color: black;
-}
 
+.main-text{
+    width: calc(100% - 50% - 40px);
+    float: left; 
+    padding: 15px;
+    height: calc(85% - 40px);
+    margin: 20px;
+}
 .box{
     width: 25%;
     height:calc(85% - 40px);
@@ -92,7 +97,11 @@ main{
     padding: 15px;
 }
 
-.img{
+.main-title h1{
+    color: black;
+}
+
+.img-box{
     width: 90%;
     height: 30%;
     margin: 0 auto;
@@ -101,7 +110,7 @@ main{
 }
 .side-center{
      background-image: url(../img/banner-2.jpg);
-     background-size: cover;
+     background-size:cover;
      background-position: 5%;
      vertical-align: middle;
 }
@@ -137,14 +146,6 @@ main{
     float: right;
 }
 
-.main-text{
-    width: calc(100% - 50% - 40px);
-    float: left; 
-    padding: 15px;
-    height: calc(85% - 40px);
-    margin: 20px;
-
-}
 
 #heart{
     color: red;
